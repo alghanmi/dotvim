@@ -119,3 +119,14 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 "map <down> <nop>
 "map <left> <nop>
 "map <right> <nop>
+
+"
+" vim Plugins
+"
+
+"CtrlP
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_working_path_mode='ra'
+let g:ctrlp_cmd = 'CtrlPMixed'
+set autochdir

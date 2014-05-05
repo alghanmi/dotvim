@@ -10,3 +10,6 @@
 [submodule "bundle/nginx-syntax"]
 	path = bundle/nginx-syntax
 	url = git@github.com:evanmiller/nginx-vim-syntax.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
