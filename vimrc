@@ -90,14 +90,17 @@ set shell=/bin/bash
 "
 " Colorscheme & Syntax Highlighting
 "
-if &t_Co >= 256 || has("gui_running")
-    colorscheme desert256
-endif
-
 if &t_Co > 2 || has("gui_running")
-    syntax on                      " switch syntax highlighting on, when the terminal has colors
+    syntax enable                      " switch syntax highlighting on, when the terminal has colors
     filetype on			           " allow file type detection
 endif
+
+if &t_Co >= 256 || has("gui_running")
+	let g:solarized_termcolors=256
+	set background=dark
+	colorscheme solarized
+endif
+
 
 
 
