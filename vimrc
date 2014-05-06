@@ -130,3 +130,8 @@ let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 let g:ctrlp_working_path_mode='ra'
 let g:ctrlp_cmd = 'CtrlPMixed'
 set autochdir
+
+"PowerLine
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
