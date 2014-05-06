@@ -70,8 +70,8 @@ set ignorecase                     " ignore case when searching
 set smartcase                      " ignore case if search pattern is all lowercase, case-sensitive otherwise
 set hlsearch                       " highlight search terms
 set incsearch                      " incremental search
-nnoremap / /\v                     " make vim use normal regex
-vnoremap / /\v                     " make vim use normal regex
+"nnoremap / /\v                     " make vim use normal regex
+"vnoremap / /\v                     " make vim use normal regex
 
 
 " Grown-ups use git
