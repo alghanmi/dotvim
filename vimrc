@@ -131,6 +131,13 @@ let g:ctrlp_working_path_mode='ra'
 let g:ctrlp_cmd = 'CtrlPMixed'
 set autochdir
 
+"NERDTree
+nnoremap <leader>e :NERDTreeToggle<CR>               " NERDTree
+"Start NERDTree if vim started with no file
+autocmd vimenter * if !argc() | NERDTree | endif
+"ClosDTreeToggle<CR>ly open window is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
 "PowerLine
 python from powerline.vim import setup as powerline_setup
 python powerline_setup()
