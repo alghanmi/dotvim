@@ -9,6 +9,6 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 ###Notes
   + To update all submodules
-  ```bash
-  git submodule foreach git pull
-  ```
+```bash
+git submodule foreach git pull origin master
+```
