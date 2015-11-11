@@ -28,3 +28,6 @@
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = git@github.com:klen/python-mode.git
+[submodule "bundle/vim-tmux"]
+	path = bundle/vim-tmux
+	url = git@github.com:tmux-plugins/vim-tmux.git
