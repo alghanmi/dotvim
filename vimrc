@@ -10,6 +10,9 @@
 " Last update: 2014-05-05 12:09AM PDT
 " --------------------------------------------------------------
 
+" Load vim-pathogen
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+
 " Disable vi compatibility (MUST BE FIRST)
 set nocompatible
 
