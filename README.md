@@ -8,7 +8,8 @@ ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
 ###Notes
-  + To update all submodules
+  + To update all dependencies
 ```bash
-git submodule foreach git pull origin master
+git submodule update --init --recursive
+curl --silent --show-error --location --output ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
