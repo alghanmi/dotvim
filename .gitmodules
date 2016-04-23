@@ -37,3 +37,6 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git@github.com:tpope/vim-pathogen.git
+[submodule "bundle/vim-dirdiff"]
+	path = bundle/vim-dirdiff
+	url = git@github.com:will133/vim-dirdiff.git
