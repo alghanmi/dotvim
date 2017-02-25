@@ -23,6 +23,7 @@ git remote add repeat git@github.com:tpope/vim-repeat.git
 git remote add solarized git@github.com:altercation/vim-colors-solarized.git
 git remote add surround git@github.com:tpope/vim-surround.git
 git remote add vim-fugitive git@github.com:tpope/vim-fugitive.git
+git remote add vim-hclfmt git@github.com:fatih/vim-hclfmt.git
 git remote add vim-tmux git@github.com:tmux-plugins/vim-tmux.git
 git remote add vim-tmux-focus-events git@github.com:tmux-plugins/vim-tmux-focus-events.git
 ```
@@ -40,6 +41,7 @@ git subtree pull --squash --prefix=bundle/repeat repeat master
 git subtree pull --squash --prefix=bundle/solarized solarized master
 git subtree pull --squash --prefix=bundle/surround surround master
 git subtree pull --squash --prefix=bundle/vim-dirdiff dirdiff master
+git subtree pull --squash --prefix=bundle/vim-hclfmt vim-hclfmt master
 git subtree pull --squash --prefix=bundle/vim-pathogen pathogen master
 git subtree pull --squash --prefix=bundle/vim-tmux vim-tmux master
 git subtree pull --squash --prefix=bundle/vim-tmux-focus-events vim-tmux-focus-events master
